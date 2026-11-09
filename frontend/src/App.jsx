@@ -738,7 +738,7 @@ export default function App() {
 
           <div>
             <span className="eyebrow">
-              GEMINI-POWERED TRAVEL ASSISTANT
+              MULTI-AGENT SYSTEM WORK MODE ON
             </span>
 
             <h1>Where would you like to go?</h1>
