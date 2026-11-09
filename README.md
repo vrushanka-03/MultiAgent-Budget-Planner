@@ -2,7 +2,7 @@
 
 **Plan smarter. Travel better. Stay within your budget.**
 
-TripForge is a Gemini-powered, multi-agent AI travel planning application that helps users generate budget-aware travel plans using real-world travel data and multiple API integrations.
+TripForge is a multi-agent AI travel planning application that helps users generate budget-aware travel plans using real-world travel data and multiple API integrations.
 
 Instead of simply suggesting destinations, TripForge collects the user's travel requirements, retrieves relevant travel information, coordinates specialist agents, and organizes the available information into a structured trip budget.
 
