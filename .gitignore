@@ -1,0 +1,38 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and test files
+tempCodeRunnerFile.py
+orch_test/
+test_data/
+inspect_bmtc.py
+test_*.py
+transitland_test.py
+
+# Logs
+*.log
+
+# TripForge temporary caches
+data/.tripforge_*_cache.json
