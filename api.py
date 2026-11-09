@@ -16,6 +16,7 @@ from fastapi.encoders import jsonable_encoder
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field, field_validator
 from starlette.concurrency import run_in_threadpool
+from fastapi.responses import RedirectResponse
 
 from trip_engine import run_trip
 from agents.multi_agent_coordinator import coordinate_trip
@@ -26,6 +27,10 @@ app = FastAPI(
     description="External API for the existing TripForge travel-planning orchestrator.",
     version="1.0.0",
 )
+
+@app.get("/", include_in_schema=False)
+def root():
+    return RedirectResponse(url="/docs")
 
 origins = [
     item.strip() for item in os.getenv(
