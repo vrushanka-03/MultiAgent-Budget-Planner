@@ -1,4 +1,4 @@
-# TripForge – Multi-Agent AI Travel Planner
+# TripForge – Multi Agent AI Travel Planner
 
 **Plan smarter. Travel better. Stay within your budget.**
 
